@@ -1,0 +1,249 @@
+* {
+   /* padding: 0; */
+   box-sizing: border-box; /* default: content-box */
+}
+
+html{
+    font-size: 1rem;
+    height: 100%;
+}
+
+body, main, footer{
+    border-radius: 3px;
+    /* border: 3px solid red; */
+    min-height: 50px;
+    min-width: 400px;
+    margin:0.5rem 0rem;
+}
+body{
+    background-color: #c4cff6b2;
+    font-family: "helvetica Neue", helvetica, arial,sans-serif;
+}
+
+main {
+    min-height: 200px;
+    overflow: auto;         /* para que el contenido no desborde del main  */
+    background-color: white; 
+}
+
+header {
+    /* border: 2px solid red; */
+    background: rgba(185, 104, 236, 0.384);
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%); 
+    margin:0rem;
+    min-height: 50px;
+    min-width: 400px;
+}
+footer {
+    background: white;
+    text-align: center;
+}
+
+main>div {
+    /* border: 2px solid rgb(76, 125, 232); */
+    min-height: 180px;
+    margin: 0.5rem;
+    height: auto;
+    float: left;
+    width: 65%;
+    
+}
+
+main>aside {
+    /* border: 2px solid rgb(76, 125, 232); */
+    min-height: 180px;
+    min-width: 32%;
+    margin: 0.5rem;
+    float: left;
+    width: auto;
+}
+
+.secciones {
+    /* border: 2px solid rgb(22, 168, 39); */
+    min-height:50px;
+    margin:0.5rem;
+}
+.secciones-sup{
+    /* border: 2px solid rgb(22, 168, 39); */
+    margin: 0rem 0rem 2rem 0.5rem;
+}
+.secciones article{
+    /* border: 2px solid rgba(106, 31, 129, 0.858); */
+    margin: 0.5rem;
+    min-height: 20px;
+}
+
+#gif-ppal{
+    width: 30%;
+    /* height: 100%; deforma el gif quiza*/ 
+}
+
+.header-logo{
+    /* border: 1px solid black; */
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: auto; 
+    display: inline-block; 
+}
+
+#logokaizen{
+    max-height: 60px;
+}
+
+
+.header-menubar{
+    /* border: 1px solid black; */
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+}
+
+.header-menubar ul {
+    list-style: none;
+}
+
+.header-menubar li {
+    /* border: 1px solid black; */
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0.5rem;
+    float: left;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header-menubar a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-menubar a:hover {
+    color:purple;
+}
+
+.header-menubar li a {
+    font-size: 1.2rem;
+    background-color:transparent;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+ }
+ .footer h4{
+    font-size: 14px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 400;
+ }
+  .pfooter {
+     color: #888;
+     font-size: 12px;
+     font-weight: 300;
+     line-height: 22px;
+     padding: 1px;
+ }
+.icons .fab {   
+    margin: 13px 0;
+    cursor: pointer;
+    padding: 0 5px;
+ }
+ 
+ #instagram {color: #a52687;
+}
+ 
+ #facebook {color: #186aa8; 
+ }
+
+ #messenger{color: #186aa8;
+ }
+ 
+ #twitter{color: #1ea2fa; 
+ } 
+
+ #love{color:#d63d3d
+ }
+
+ #gitlab{
+    color: #000;
+    text-decoration: none; 
+ }
+
+ #gitlab:hover{color: rgb(87, 180, 238); 
+ }
+ .container {
+    background-color:lightgray;
+ }
+ #imlookingyou{
+    max-height: 120px;
+ }
+
+
+
+ /* Formulario */
+ body{
+    background-image: url(samurai2.jpg);
+    background-size:cover ;
+    background-attachment:fixed;
+    margin: 0;
+    /* Me falta aclarar un poco la imagen */
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size:30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#submit{ 
+    background: #bacfed;
+    padding: 5px;
+    color: darkred;
+}
+
+#boton:hover{
+    cursor: pointer;
+
+}
+
+
+@media(max-width: 480px) {
+    form{
+        width: 100%;
+    }
+}
+
+label{
+    color: white;
+}
