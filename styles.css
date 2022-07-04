@@ -247,3 +247,6 @@ textarea{
 label{
     color: white;
 }
+.transparente{
+    background-color: transparent;
+}
